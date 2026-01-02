@@ -14,7 +14,6 @@ public class Two_Sum {
             int sum = arr[i] + arr[j];
             if (sum == target){
                 System.out.println("Found at Index " + i + " and " + j);
-                return 1;
             }
             if (sum < target) i++;
             else j--;
