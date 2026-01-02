@@ -16,7 +16,7 @@ public class Two_Sum {
                 System.out.println("Found at Index " + i + " and " + j);
             }
             if (sum < target) i++;
-            else j--;
+             else j--;
         }
         return -1;
     }

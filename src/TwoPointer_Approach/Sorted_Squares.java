@@ -1,7 +1,5 @@
 package TwoPointer_Approach;
-
 import java.util.*;
-
 public class Sorted_Squares {
 
     public static int[] sortedSquares(int[] arr){
