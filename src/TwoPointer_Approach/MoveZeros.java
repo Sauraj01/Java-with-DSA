@@ -34,9 +34,11 @@ public class MoveZeros {
         int[] arr = {5,0,6,0,8,0,1,2,0};
 
         System.out.println("Before " + Arrays.toString(arr));
-        moveZerosAtFirst(arr);
+    //    moveZerosAtFirst(arr);
+        moveZerosAtLast(arr);
         System.out.println("After " + Arrays.toString(arr));
 
     }
 
 }
+
